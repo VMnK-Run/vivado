@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-| Date         : Mon Apr 25 18:17:04 2022
+| Date         : Mon Apr 25 20:54:50 2022
 | Host         : DESKTOP-F9B13MH running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -file ALU_4bits_timing_summary_routed.rpt -pb ALU_4bits_timing_summary_routed.pb -rpx ALU_4bits_timing_summary_routed.rpx -warn_on_violation
 | Design       : ALU_4bits

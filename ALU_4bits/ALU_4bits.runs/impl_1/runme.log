@@ -12,32 +12,32 @@ source ALU_4bits.tcl -notrace
 Command: link_design -top ALU_4bits -part xc7a35tftg256-1
 Design is defaulting to srcset: sources_1
 Design is defaulting to constrset: constrs_1
-INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 24 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2018.2
 INFO: [Device 21-403] Loading part xc7a35tftg256-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/<const0>' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:509]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/<const1>' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:539]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:882]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:890]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[2]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:898]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[3]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:906]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:921]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:929]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[2]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:937]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[3]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:945]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:954]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:962]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[2]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:970]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[3]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:978]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[4]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:986]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[5]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:994]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[6]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:1002]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/an[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:1011]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/an[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:1031]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/sys_clk' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:859]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/sys_rst_n' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:867]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/<const0>' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:499]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/<const1>' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:529]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:872]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:880]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[2]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:888]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[3]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:896]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:911]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:919]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[2]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:927]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[3]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:935]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:944]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:952]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[2]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:960]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[3]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:968]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[4]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:976]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[5]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:984]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[6]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:992]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/an[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:1001]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/an[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:1021]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/sys_clk' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:849]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/sys_rst_n' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:857]
 Parsing XDC File [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/constrs_1/imports/DLC/pin.xdc]
 Finished Parsing XDC File [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/constrs_1/imports/DLC/pin.xdc]
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -46,7 +46,7 @@ No Unisim elements were transformed.
 
 7 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
 link_design completed successfully
-link_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 543.949 ; gain = 317.645
+link_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 543.812 ; gain = 317.820
 Command: opt_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
@@ -57,82 +57,82 @@ INFO: [DRC 23-27] Running DRC with 2 threads
 INFO: [Project 1-461] DRC finished with 0 Errors
 INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.585 . Memory (MB): peak = 557.137 ; gain = 13.188
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.586 . Memory (MB): peak = 558.508 ; gain = 14.695
 
 Starting Cache Timing Information Task
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Ending Cache Timing Information Task | Checksum: 1f4b94614
+Ending Cache Timing Information Task | Checksum: d5e41e85
 
-Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1112.621 ; gain = 555.484
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1111.422 ; gain = 552.914
 
 Starting Logic Optimization Task
 
 Phase 1 Retarget
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Opt 31-49] Retargeted 0 cell(s).
-Phase 1 Retarget | Checksum: 1f4b94614
+Phase 1 Retarget | Checksum: d5e41e85
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1111.422 ; gain = 0.000
 INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
 
 Phase 2 Constant propagation
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Phase 2 Constant propagation | Checksum: 1c6f61eec
+Phase 2 Constant propagation | Checksum: bbd7408f
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 1111.422 ; gain = 0.000
 INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
 
 Phase 3 Sweep
-Phase 3 Sweep | Checksum: 1b83b96d6
+Phase 3 Sweep | Checksum: 6ea4ac17
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1111.422 ; gain = 0.000
 INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
 
 Phase 4 BUFG optimization
-Phase 4 BUFG optimization | Checksum: 1b83b96d6
+Phase 4 BUFG optimization | Checksum: 6ea4ac17
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1111.422 ; gain = 0.000
 INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
 
 Phase 5 Shift Register Optimization
-Phase 5 Shift Register Optimization | Checksum: 1e496e627
+Phase 5 Shift Register Optimization | Checksum: 1607bd865
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.038 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1111.422 ; gain = 0.000
 INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
 
 Phase 6 Post Processing Netlist
-Phase 6 Post Processing Netlist | Checksum: 1e496e627
+Phase 6 Post Processing Netlist | Checksum: 1607bd865
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1111.422 ; gain = 0.000
 INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
 
 Starting Connectivity Check Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1112.621 ; gain = 0.000
-Ending Logic Optimization Task | Checksum: 1e496e627
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1111.422 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1607bd865
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.041 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 1111.422 ; gain = 0.000
 
 Starting Power Optimization Task
 INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
-Ending Power Optimization Task | Checksum: 1e496e627
+Ending Power Optimization Task | Checksum: 1607bd865
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1111.422 ; gain = 0.000
 
 Starting Final Cleanup Task
-Ending Final Cleanup Task | Checksum: 1e496e627
+Ending Final Cleanup Task | Checksum: 1607bd865
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1111.422 ; gain = 0.000
 INFO: [Common 17-83] Releasing license: Implementation
 23 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
 opt_design completed successfully
-opt_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1112.621 ; gain = 568.672
+opt_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1111.422 ; gain = 567.609
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 1111.422 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/impl_1/ALU_4bits_opt.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_drc -file ALU_4bits_drc_opted.rpt -pb ALU_4bits_drc_opted.pb -rpx ALU_4bits_drc_opted.rpx
 Command: report_drc -file ALU_4bits_drc_opted.rpt -pb ALU_4bits_drc_opted.pb -rpx ALU_4bits_drc_opted.rpx
@@ -159,109 +159,109 @@ INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 
 Phase 1 Placer Initialization
 
 Phase 1.1 Placer Initialization Netlist Sorting
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1112.621 ; gain = 0.000
-Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 104deab22
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1111.422 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 68aa1834
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1112.621 ; gain = 0.000
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1111.422 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1111.422 ; gain = 0.000
 
 Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
 INFO: [Timing 38-35] Done setting XDC timing constraints.
-Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: d3ddf8e7
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 1123b268c
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.449 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.451 . Memory (MB): peak = 1112.883 ; gain = 1.461
 
 Phase 1.3 Build Placer Netlist Model
-Phase 1.3 Build Placer Netlist Model | Checksum: 10991ee7e
+Phase 1.3 Build Placer Netlist Model | Checksum: 17d371cd6
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.471 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.468 . Memory (MB): peak = 1112.883 ; gain = 1.461
 
 Phase 1.4 Constrain Clocks/Macros
-Phase 1.4 Constrain Clocks/Macros | Checksum: 10991ee7e
+Phase 1.4 Constrain Clocks/Macros | Checksum: 17d371cd6
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.472 . Memory (MB): peak = 1112.621 ; gain = 0.000
-Phase 1 Placer Initialization | Checksum: 10991ee7e
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.470 . Memory (MB): peak = 1112.883 ; gain = 1.461
+Phase 1 Placer Initialization | Checksum: 17d371cd6
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.473 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.470 . Memory (MB): peak = 1112.883 ; gain = 1.461
 
 Phase 2 Global Placement
 
 Phase 2.1 Floorplanning
-Phase 2.1 Floorplanning | Checksum: 10991ee7e
+Phase 2.1 Floorplanning | Checksum: 17d371cd6
 
-Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.483 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.480 . Memory (MB): peak = 1112.883 ; gain = 1.461
 WARNING: [Place 46-29] place_design is not in timing mode. Skip physical synthesis in placer
-Phase 2 Global Placement | Checksum: 15a65f6d0
+Phase 2 Global Placement | Checksum: 17167d5d9
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.883 ; gain = 1.461
 
 Phase 3 Detail Placement
 
 Phase 3.1 Commit Multi Column Macros
-Phase 3.1 Commit Multi Column Macros | Checksum: 15a65f6d0
+Phase 3.1 Commit Multi Column Macros | Checksum: 17167d5d9
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.883 ; gain = 1.461
 
 Phase 3.2 Commit Most Macros & LUTRAMs
-Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 10dbd0b17
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1a127fa24
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.883 ; gain = 1.461
 
 Phase 3.3 Area Swap Optimization
-Phase 3.3 Area Swap Optimization | Checksum: 1bfd5d558
+Phase 3.3 Area Swap Optimization | Checksum: 19f9dbf89
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.883 ; gain = 1.461
 
 Phase 3.4 Pipeline Register Optimization
-Phase 3.4 Pipeline Register Optimization | Checksum: 1bfd5d558
+Phase 3.4 Pipeline Register Optimization | Checksum: 19f9dbf89
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.883 ; gain = 1.461
 
 Phase 3.5 Small Shape Detail Placement
-Phase 3.5 Small Shape Detail Placement | Checksum: 133960bc8
+Phase 3.5 Small Shape Detail Placement | Checksum: 23a339e57
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.883 ; gain = 1.461
 
 Phase 3.6 Re-assign LUT pins
-Phase 3.6 Re-assign LUT pins | Checksum: 133960bc8
+Phase 3.6 Re-assign LUT pins | Checksum: 23a339e57
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.883 ; gain = 1.461
 
 Phase 3.7 Pipeline Register Optimization
-Phase 3.7 Pipeline Register Optimization | Checksum: 133960bc8
+Phase 3.7 Pipeline Register Optimization | Checksum: 23a339e57
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.621 ; gain = 0.000
-Phase 3 Detail Placement | Checksum: 133960bc8
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.883 ; gain = 1.461
+Phase 3 Detail Placement | Checksum: 23a339e57
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.883 ; gain = 1.461
 
 Phase 4 Post Placement Optimization and Clean-Up
 
 Phase 4.1 Post Commit Optimization
-Phase 4.1 Post Commit Optimization | Checksum: 133960bc8
+Phase 4.1 Post Commit Optimization | Checksum: 23a339e57
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.883 ; gain = 1.461
 
 Phase 4.2 Post Placement Cleanup
-Phase 4.2 Post Placement Cleanup | Checksum: 133960bc8
+Phase 4.2 Post Placement Cleanup | Checksum: 23a339e57
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.883 ; gain = 1.461
 
 Phase 4.3 Placer Reporting
-Phase 4.3 Placer Reporting | Checksum: 133960bc8
+Phase 4.3 Placer Reporting | Checksum: 23a339e57
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.883 ; gain = 1.461
 
 Phase 4.4 Final Placement Cleanup
-Phase 4.4 Final Placement Cleanup | Checksum: 16496be03
+Phase 4.4 Final Placement Cleanup | Checksum: 190a28fff
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.621 ; gain = 0.000
-Phase 4 Post Placement Optimization and Clean-Up | Checksum: 16496be03
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.883 ; gain = 1.461
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 190a28fff
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.621 ; gain = 0.000
-Ending Placer Task | Checksum: cc86f3e0
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.883 ; gain = 1.461
+Ending Placer Task | Checksum: 9881aa7a
 
-Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1112.883 ; gain = 1.461
 INFO: [Common 17-83] Releasing license: Implementation
 41 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
 place_design completed successfully
@@ -270,14 +270,14 @@ Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 1112.621 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1112.883 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/impl_1/ALU_4bits_placed.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_io -file ALU_4bits_io_placed.rpt
-report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1117.047 ; gain = 0.000
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1118.801 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_utilization -file ALU_4bits_utilization_placed.rpt -pb ALU_4bits_utilization_placed.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.022 . Memory (MB): peak = 1117.047 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 1118.801 ; gain = 0.000
 INFO: [runtcl-4] Executing : report_control_sets -verbose -file ALU_4bits_control_sets_placed.rpt
-report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1117.047 ; gain = 0.000
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1118.801 ; gain = 0.000
 Command: route_design
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
@@ -289,68 +289,68 @@ INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more in
 
 Starting Routing Task
 INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
-Checksum: PlaceDB: 6e1b38d ConstDB: 0 ShapeSum: c5a54053 RouteDB: 0
+Checksum: PlaceDB: 6f10fd15 ConstDB: 0 ShapeSum: 2970ad65 RouteDB: 0
 
 Phase 1 Build RT Design
-Phase 1 Build RT Design | Checksum: 1249e4cf9
+Phase 1 Build RT Design | Checksum: b20b035e
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1236.965 ; gain = 119.918
-Post Restoration Checksum: NetGraph: 7a5b88c9 NumContArr: aa42c430 Constraints: 0 Timing: 0
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1236.277 ; gain = 117.477
+Post Restoration Checksum: NetGraph: 9c2e07da NumContArr: 15dcfb84 Constraints: 0 Timing: 0
 
 Phase 2 Router Initialization
 INFO: [Route 35-64] No timing constraints were detected. The router will operate in resource-optimization mode.
 
 Phase 2.1 Fix Topology Constraints
-Phase 2.1 Fix Topology Constraints | Checksum: 1249e4cf9
+Phase 2.1 Fix Topology Constraints | Checksum: b20b035e
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1242.973 ; gain = 125.926
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1242.281 ; gain = 123.480
 
 Phase 2.2 Pre Route Cleanup
-Phase 2.2 Pre Route Cleanup | Checksum: 1249e4cf9
+Phase 2.2 Pre Route Cleanup | Checksum: b20b035e
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1242.973 ; gain = 125.926
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1242.281 ; gain = 123.480
  Number of Nodes with overlaps = 0
-Phase 2 Router Initialization | Checksum: 10cc9f0a3
+Phase 2 Router Initialization | Checksum: 12f561f8f
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1244.645 ; gain = 127.598
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1243.945 ; gain = 125.145
 
 Phase 3 Initial Routing
-Phase 3 Initial Routing | Checksum: d9b44890
+Phase 3 Initial Routing | Checksum: 1af43ee24
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1244.645 ; gain = 127.598
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1243.945 ; gain = 125.145
 
 Phase 4 Rip-up And Reroute
 
 Phase 4.1 Global Iteration 0
- Number of Nodes with overlaps = 30
+ Number of Nodes with overlaps = 24
  Number of Nodes with overlaps = 0
-Phase 4.1 Global Iteration 0 | Checksum: 129eb532c
+Phase 4.1 Global Iteration 0 | Checksum: f3d6083e
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1244.668 ; gain = 127.621
-Phase 4 Rip-up And Reroute | Checksum: 129eb532c
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1243.980 ; gain = 125.180
+Phase 4 Rip-up And Reroute | Checksum: f3d6083e
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1244.668 ; gain = 127.621
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1243.980 ; gain = 125.180
 
 Phase 5 Delay and Skew Optimization
-Phase 5 Delay and Skew Optimization | Checksum: 129eb532c
+Phase 5 Delay and Skew Optimization | Checksum: f3d6083e
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1244.668 ; gain = 127.621
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1243.980 ; gain = 125.180
 
 Phase 6 Post Hold Fix
 
 Phase 6.1 Hold Fix Iter
-Phase 6.1 Hold Fix Iter | Checksum: 129eb532c
+Phase 6.1 Hold Fix Iter | Checksum: f3d6083e
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1244.668 ; gain = 127.621
-Phase 6 Post Hold Fix | Checksum: 129eb532c
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1243.980 ; gain = 125.180
+Phase 6 Post Hold Fix | Checksum: f3d6083e
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1244.668 ; gain = 127.621
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1243.980 ; gain = 125.180
 
 Phase 7 Route finalize
 
 Router Utilization Summary
-  Global Vertical Routing Utilization    = 0.0872997 %
-  Global Horizontal Routing Utilization  = 0.0623373 %
+  Global Vertical Routing Utilization    = 0.0829945 %
+  Global Horizontal Routing Utilization  = 0.0672827 %
   Routable Net Status*
   *Does not include unroutable nets such as driverless and loadless.
   Run report_route_status for detailed report.
@@ -360,10 +360,10 @@ Router Utilization Summary
   Number of Node Overlaps             = 0
 
 Congestion Report
-North Dir 1x1 Area, Max Cong = 21.6216%, No Congested Regions.
-South Dir 1x1 Area, Max Cong = 21.6216%, No Congested Regions.
-East Dir 1x1 Area, Max Cong = 22.0588%, No Congested Regions.
-West Dir 1x1 Area, Max Cong = 13.2353%, No Congested Regions.
+North Dir 1x1 Area, Max Cong = 37.8378%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 16.2162%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 29.4118%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 17.6471%, No Congested Regions.
 
 ------------------------------
 Reporting congestion hotspots
@@ -385,36 +385,36 @@ Direction: West
 Congested clusters found at Level 0
 Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
 
-Phase 7 Route finalize | Checksum: 129eb532c
+Phase 7 Route finalize | Checksum: f3d6083e
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1244.668 ; gain = 127.621
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1243.980 ; gain = 125.180
 
 Phase 8 Verifying routed nets
 
  Verification completed successfully
-Phase 8 Verifying routed nets | Checksum: 129eb532c
+Phase 8 Verifying routed nets | Checksum: f3d6083e
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1246.953 ; gain = 129.906
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1246.258 ; gain = 127.457
 
 Phase 9 Depositing Routes
-Phase 9 Depositing Routes | Checksum: 1d62164fc
+Phase 9 Depositing Routes | Checksum: fe311c23
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1246.953 ; gain = 129.906
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1246.258 ; gain = 127.457
 INFO: [Route 35-16] Router Completed Successfully
 
-Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1246.953 ; gain = 129.906
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1246.258 ; gain = 127.457
 
 Routing Is Done.
 INFO: [Common 17-83] Releasing license: Implementation
 54 Infos, 22 Warnings, 0 Critical Warnings and 0 Errors encountered.
 route_design completed successfully
-route_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 1246.953 ; gain = 129.906
+route_design: Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 1246.258 ; gain = 127.457
 INFO: [Timing 38-480] Writing timing data to binary archive.
 Writing placer database...
 Writing XDEF routing.
 Writing XDEF routing logical nets.
 Writing XDEF routing special nets.
-Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 1246.953 ; gain = 0.000
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1246.258 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/impl_1/ALU_4bits_routed.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_drc -file ALU_4bits_drc_routed.rpt -pb ALU_4bits_drc_routed.pb -rpx ALU_4bits_drc_routed.rpx
 Command: report_drc -file ALU_4bits_drc_routed.rpt -pb ALU_4bits_drc_routed.pb -rpx ALU_4bits_drc_routed.rpx
@@ -446,7 +446,7 @@ WARNING: [Timing 38-313] There are no user specified timing constraints. Timing 
 INFO: [runtcl-4] Executing : report_incremental_reuse -file ALU_4bits_incremental_reuse_routed.rpt
 INFO: [Vivado_Tcl 4-545] No incremental reuse to report, no incremental placement and routing data was found.
 INFO: [runtcl-4] Executing : report_clock_utilization -file ALU_4bits_clock_utilization_routed.rpt
-INFO: [Common 17-206] Exiting Vivado at Mon Apr 25 18:17:04 2022...
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 25 20:54:51 2022...
 
 *** Running vivado
     with args -log ALU_4bits.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source ALU_4bits.tcl -notrace
@@ -462,33 +462,33 @@ Command: open_checkpoint ALU_4bits_routed.dcp
 
 Starting open_checkpoint Task
 
-Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 223.211 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.025 . Memory (MB): peak = 223.125 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 24 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-479] Netlist was created with Vivado 2018.2
 INFO: [Device 21-403] Loading part xc7a35tftg256-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/<const0>' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:509]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/<const1>' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:539]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:882]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:890]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[2]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:898]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[3]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:906]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:921]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:929]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[2]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:937]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[3]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:945]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:954]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:962]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[2]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:970]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[3]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:978]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[4]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:986]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[5]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:994]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[6]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:1002]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/an[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:1011]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/an[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:1031]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/sys_clk' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:859]
-WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/sys_rst_n' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:867]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/<const0>' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:499]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/<const1>' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:529]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:872]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:880]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[2]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:888]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[3]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:896]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:911]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:919]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[2]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:927]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[3]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:935]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:944]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:952]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[2]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:960]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[3]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:968]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[4]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:976]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[5]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:984]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[6]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:992]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/an[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:1001]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/an[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:1021]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/sys_clk' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:849]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/sys_rst_n' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits/ALU_4bits.edf:857]
 INFO: [Timing 38-478] Restoring timing data from binary archive.
 INFO: [Timing 38-479] Binary timing data restore complete.
 INFO: [Project 1-856] Restoring constraints from binary archive.
@@ -496,14 +496,14 @@ INFO: [Project 1-853] Binary constraint restore complete.
 Reading XDEF placement.
 Reading placer database...
 Reading XDEF routing.
-Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 1054.121 ; gain = 0.000
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 1056.340 ; gain = 0.000
 Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.081 . Memory (MB): peak = 1054.121 ; gain = 0.000
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 1056.340 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Project 1-604] Checkpoint was created with Vivado v2018.2 (64-bit) build 2258646
-open_checkpoint: Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 1054.121 ; gain = 838.859
+open_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 1056.340 ; gain = 841.633
 Command: write_bitstream -force ALU_4bits.bit -bin_file
 Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
@@ -531,7 +531,7 @@ Loading route data...
 Processing options...
 Creating bitmap...
 Creating bitstream...
-Bitstream compression saved 14728160 bits.
+Bitstream compression saved 14925440 bits.
 Writing bitstream ./ALU_4bits.bit...
 Writing bitstream ./ALU_4bits.bin...
 INFO: [Vivado 12-1842] Bitgen Completed Successfully.
@@ -539,5 +539,5 @@ INFO: [Project 1-120] WebTalk data collection is mandatory when using a WebPACK 
 INFO: [Common 17-83] Releasing license: Implementation
 22 Infos, 23 Warnings, 0 Critical Warnings and 0 Errors encountered.
 write_bitstream completed successfully
-write_bitstream: Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1515.398 ; gain = 461.277
-INFO: [Common 17-206] Exiting Vivado at Mon Apr 25 18:18:46 2022...
+write_bitstream: Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 1515.312 ; gain = 458.973
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 25 20:55:37 2022...

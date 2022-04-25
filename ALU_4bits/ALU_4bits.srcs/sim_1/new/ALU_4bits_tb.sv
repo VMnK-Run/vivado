@@ -29,7 +29,7 @@ module ALU_4bits_tb(
     logic [7:0] alures;
     logic ZF;
     logic OF;
-    logic [21:0] stim [26:0];
+    logic [21:0] stim [28:0];
     logic [7:0] aluresExcepted;
     logic ZFexcepted;
     logic OFexcepted;
@@ -46,7 +46,7 @@ module ALU_4bits_tb(
     
     initial begin
         $readmemb("test.txt", stim);
-        for(i = 0; i < 27; i++) begin
+        for(i = 0; i < 29; i++) begin
             {A, B, aluop, aluresExcepted, ZFexcepted, OFexcepted} = stim[i];
             #10;
             if(alures == aluresExcepted && ZF == ZFexcepted && OF == OFexcepted)

@@ -112,11 +112,9 @@ module alu(
             ZF = (diff == 0) ? 1 : 0;
             OF = (A < B) ? 1 : 0;
         end else if(aluop == 4'b1110) begin
-            logic [3:0] temp1;
-            logic [3:0] temp2;
-            temp1 = (A[3] == 0) ? (A < B) : (A > B);
-            temp2 = (A[3] == 0) ? 0 : 1;
-            alures = {4'b0000, (A[3] == B[3]) ? temp1 : temp2};
+            logic [3:0] temp;
+            temp = (A[3] == 0) ? 0 : 1;
+            alures = {4'b0000, (A[3] == B[3]) ? (A < B) : temp};
             ZF = (A == B) ? 1 : 0;
             OF = 0;
         end else if(aluop == 4'b1111) begin
