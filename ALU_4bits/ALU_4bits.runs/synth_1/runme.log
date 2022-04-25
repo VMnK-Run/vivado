@@ -1,0 +1,693 @@
+
+*** Running vivado
+    with args -log ALU_4bits.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU_4bits.tcl
+
+
+****** Vivado v2017.3 (64-bit)
+  **** SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
+  **** IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source ALU_4bits.tcl -notrace
+Command: synth_design -top ALU_4bits -part xc7a35tftg256-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 12916 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 334.785 ; gain = 93.137
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'ALU_4bits' [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/ALU_4bits.sv:2]
+INFO: [Synth 8-638] synthesizing module 'alu' [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/alu.sv:3]
+	Parameter AND bound to: 4'b0000 
+	Parameter OR bound to: 4'b0001 
+	Parameter XOR bound to: 4'b0010 
+	Parameter NAND bound to: 4'b0011 
+	Parameter NOT bound to: 4'b0100 
+	Parameter SLL bound to: 4'b0101 
+	Parameter SRL bound to: 4'b0110 
+	Parameter SRA bound to: 4'b0111 
+	Parameter MULU bound to: 4'b1000 
+	Parameter MUL bound to: 4'b1001 
+	Parameter ADD bound to: 4'b1010 
+	Parameter ADDU bound to: 4'b1011 
+	Parameter SUB bound to: 4'b1100 
+	Parameter SUBU bound to: 4'b1101 
+	Parameter SLT bound to: 4'b1110 
+	Parameter SLTU bound to: 4'b1111 
+INFO: [Synth 8-226] default block is never used [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/alu.sv:46]
+INFO: [Synth 8-638] synthesizing module 'rca' [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/rca.sv:3]
+INFO: [Synth 8-638] synthesizing module 'fulladder' [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/fulladder.sv:3]
+INFO: [Synth 8-256] done synthesizing module 'fulladder' (1#1) [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/fulladder.sv:3]
+INFO: [Synth 8-256] done synthesizing module 'rca' (2#1) [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/rca.sv:3]
+INFO: [Synth 8-256] done synthesizing module 'alu' (3#1) [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/alu.sv:3]
+INFO: [Synth 8-638] synthesizing module 'x7seg_d' [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d_port.sv:15]
+INFO: [Synth 8-256] done synthesizing module 'ALU_4bits' (4#1) [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/ALU_4bits.sv:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 375.867 ; gain = 134.219
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 375.867 ; gain = 134.219
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tftg256-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/constrs_1/imports/DLC/pin.xdc]
+Finished Parsing XDC File [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/constrs_1/imports/DLC/pin.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/constrs_1/imports/DLC/pin.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ALU_4bits_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ALU_4bits_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 672.445 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 672.445 ; gain = 430.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tftg256-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 672.445 ; gain = 430.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 672.445 ; gain = 430.797
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "ZF" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:29 ; elapsed = 00:00:31 . Memory (MB): peak = 672.445 ; gain = 430.797
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---XORs : 
+	   2 Input      4 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 9     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 5     
+	  13 Input      4 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module fulladder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---XORs : 
+	   2 Input      4 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 5     
+	  13 Input      4 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "U0/ZF" won't be mapped to RAM because it is too sparse
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:32 . Memory (MB): peak = 672.445 ; gain = 430.797
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 672.445 ; gain = 430.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 672.445 ; gain = 430.797
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:43 ; elapsed = 00:00:45 . Memory (MB): peak = 672.445 ; gain = 430.797
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 672.445 ; gain = 430.797
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 672.445 ; gain = 430.797
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 672.445 ; gain = 430.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 672.445 ; gain = 430.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 672.445 ; gain = 430.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 672.445 ; gain = 430.797
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |x7seg_d       |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |x7seg_d_bbox_0 |     1|
+|2     |CARRY4         |     2|
+|3     |LUT2           |     6|
+|4     |LUT3           |     3|
+|5     |LUT4           |     2|
+|6     |LUT5           |    13|
+|7     |LUT6           |    46|
+|8     |IBUF           |    14|
+|9     |OBUF           |    14|
++------+---------------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   112|
+|2     |  U0     |alu    |    43|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:44 ; elapsed = 00:00:47 . Memory (MB): peak = 672.445 ; gain = 430.797
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:26 ; elapsed = 00:00:39 . Memory (MB): peak = 672.445 ; gain = 134.219
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 672.445 ; gain = 430.797
+INFO: [Project 1-571] Translating synthesized netlist
+Parsing EDIF File [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif]
+Finished Parsing EDIF File [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif]
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/<const0>' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:367]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/<const1>' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:396]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:409]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:416]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:423]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:430]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:443]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:450]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:457]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:464]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:471]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:478]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[2]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:485]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[3]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:492]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[4]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:499]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[5]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:506]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[6]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:513]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/an[0]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:520]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/an[1]' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:539]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/sys_clk' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:1153]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/sys_rst_n' is not directly connected to top level port. 'IOSTANDARD' is ignored by Vivado but preserved for implementation tool. [D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:1160]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+25 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:46 ; elapsed = 00:00:49 . Memory (MB): peak = 678.617 ; gain = 441.984
+INFO: [Common 17-1381] The checkpoint 'D:/Work/vivado_project/DLC/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ALU_4bits_utilization_synth.rpt -pb ALU_4bits_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 678.617 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Fri Apr  9 16:20:09 2021...
+
+*** Running vivado
+    with args -log ALU_4bits.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source ALU_4bits.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source ALU_4bits.tcl -notrace
+Command: synth_design -top ALU_4bits -part xc7a35tftg256-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 27024 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 333.801 ; gain = 100.141
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ALU_4bits' [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/ALU_4bits.sv:2]
+INFO: [Synth 8-6157] synthesizing module 'alu' [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/new/alu.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'rca' [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/new/rca.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'fulladder' [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/new/fulladder.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'fulladder' (1#1) [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/new/fulladder.sv:23]
+INFO: [Synth 8-6155] done synthesizing module 'rca' (2#1) [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/new/rca.sv:23]
+WARNING: [Synth 8-87] always_comb on 'alures_reg' did not result in combinational logic [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/new/alu.sv:40]
+WARNING: [Synth 8-87] always_comb on 'ZF_reg' did not result in combinational logic [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/new/alu.sv:41]
+WARNING: [Synth 8-87] always_comb on 'OF_reg' did not result in combinational logic [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/new/alu.sv:42]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (3#1) [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/new/alu.sv:23]
+INFO: [Synth 8-6157] synthesizing module 'x7seg_d' [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d_port.sv:15]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_4bits' (4#1) [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/ALU_4bits.sv:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 389.102 ; gain = 155.441
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 389.102 ; gain = 155.441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 389.102 ; gain = 155.441
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tftg256-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/constrs_1/imports/DLC/pin.xdc]
+Finished Parsing XDC File [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/constrs_1/imports/DLC/pin.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/constrs_1/imports/DLC/pin.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ALU_4bits_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ALU_4bits_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 715.602 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 715.602 ; gain = 481.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tftg256-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 715.602 ; gain = 481.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 715.602 ; gain = 481.941
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "alures" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ZF0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ZF0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ZF0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ZF0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ZF0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ZF0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ZF0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ZF0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ZF0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'alures_reg' [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/new/alu.sv:40]
+WARNING: [Synth 8-327] inferring latch for variable 'ZF_reg' [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/new/alu.sv:41]
+WARNING: [Synth 8-327] inferring latch for variable 'OF_reg' [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/new/alu.sv:42]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 715.602 ; gain = 481.941
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---XORs : 
+	   2 Input      4 Bit         XORs := 1     
+	   2 Input      1 Bit         XORs := 16    
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 14    
+	  16 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module fulladder 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 2     
+Module alu 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 2     
++---XORs : 
+	   2 Input      4 Bit         XORs := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 3     
+	   2 Input      2 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 14    
+	  16 Input      1 Bit        Muxes := 1     
+	  11 Input      1 Bit        Muxes := 2     
+	   6 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3332] Sequential element (alu1/alures_reg[7]) is unused and will be removed from module ALU_4bits.
+WARNING: [Synth 8-3332] Sequential element (alu1/alures_reg[6]) is unused and will be removed from module ALU_4bits.
+WARNING: [Synth 8-3332] Sequential element (alu1/alures_reg[5]) is unused and will be removed from module ALU_4bits.
+WARNING: [Synth 8-3332] Sequential element (alu1/alures_reg[4]) is unused and will be removed from module ALU_4bits.
+WARNING: [Synth 8-3332] Sequential element (alu1/alures_reg[3]) is unused and will be removed from module ALU_4bits.
+WARNING: [Synth 8-3332] Sequential element (alu1/alures_reg[2]) is unused and will be removed from module ALU_4bits.
+WARNING: [Synth 8-3332] Sequential element (alu1/alures_reg[1]) is unused and will be removed from module ALU_4bits.
+WARNING: [Synth 8-3332] Sequential element (alu1/alures_reg[0]) is unused and will be removed from module ALU_4bits.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 715.602 ; gain = 481.941
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 715.602 ; gain = 481.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 715.602 ; gain = 481.941
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 715.602 ; gain = 481.941
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 715.602 ; gain = 481.941
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 715.602 ; gain = 481.941
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 715.602 ; gain = 481.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 715.602 ; gain = 481.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 715.602 ; gain = 481.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 715.602 ; gain = 481.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------+----------+
+|      |BlackBox name |Instances |
++------+--------------+----------+
+|1     |x7seg_d       |         1|
++------+--------------+----------+
+
+Report Cell Usage: 
++------+---------------+------+
+|      |Cell           |Count |
++------+---------------+------+
+|1     |x7seg_d_bbox_0 |     1|
+|2     |CARRY4         |     5|
+|3     |LUT2           |    20|
+|4     |LUT3           |     9|
+|5     |LUT4           |    20|
+|6     |LUT5           |     9|
+|7     |LUT6           |    70|
+|8     |MUXF7          |     1|
+|9     |LDC            |     1|
+|10    |LDP            |     1|
+|11    |IBUF           |    14|
+|12    |OBUF           |    14|
++------+---------------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   176|
+|2     |  alu1   |alu    |   111|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 715.602 ; gain = 481.941
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 715.602 ; gain = 155.441
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 715.602 ; gain = 481.941
+INFO: [Project 1-571] Translating synthesized netlist
+Parsing EDIF File [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif]
+Finished Parsing EDIF File [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif]
+INFO: [Netlist 29-17] Analyzing 27 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.3
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/<const0>' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:367]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/<const1>' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:396]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:409]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:416]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[2]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:423]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y0[3]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:430]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:443]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:450]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[2]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:457]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/Y1[3]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:464]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:471]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:478]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[2]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:485]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[3]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:492]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[4]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:499]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[5]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:506]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/a_to_g[6]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:513]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/an[0]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:520]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/an[1]' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:539]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/sys_clk' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:1153]
+WARNING: [Constraints 18-550] Could not create 'IOSTANDARD' constraint because net 'U1/sys_rst_n' is not directly connected to top level port. Synthesis is ignored for D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif but preserved for implementation. [D:/MyCodes/vivado/ALU_4bits/ALU_4bits.srcs/sources_1/imports/DLC/x7seg_d.edif:1160]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  LDC => LDCE: 1 instances
+  LDP => LDPE: 1 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+32 Infos, 35 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 741.609 ; gain = 520.781
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'D:/MyCodes/vivado/ALU_4bits/ALU_4bits.runs/synth_1/ALU_4bits.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ALU_4bits_utilization_synth.rpt -pb ALU_4bits_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 741.609 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 25 18:16:11 2022...

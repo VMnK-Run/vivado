@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Apr  8 14:34:59 2022
+# Process ID: 40640
+# Current directory: D:/MyCodes/vivado/x7seg/x7seg.runs/impl_1
+# Command line: vivado.exe -log x7seg_a.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source x7seg_a.tcl -notrace
+# Log file: D:/MyCodes/vivado/x7seg/x7seg.runs/impl_1/x7seg_a.vdi
+# Journal file: D:/MyCodes/vivado/x7seg/x7seg.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source x7seg_a.tcl -notrace
