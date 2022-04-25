@@ -1,3 +1,5 @@
 *.sv linguist-language=verilog
 *.rpt linguist-language=verilog
 *.rtx linguist-language=verilog
+*.dcp linguist-language=verilog
+*.pb linguist-language=verilog
