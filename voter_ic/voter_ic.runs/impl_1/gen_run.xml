@@ -1,69 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1650786778">
-  <File Type="BITSTR-BMM" Name="voter5_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="voter5_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="voter5_timing_summary_init.rpt"/>
   <File Type="ROUTE-PWR" Name="voter5_power_routed.rpt"/>
   <File Type="PA-TCL" Name="voter5.tcl"/>
-  <File Type="OPT-TIMING" Name="voter5_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="voter5_opt.dcp"/>
+  <File Type="BITSTR-BMM" Name="voter5_bd.bmm"/>
   <File Type="ROUTE-PWR-SUM" Name="voter5_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="voter5_reports.tcl"/>
+  <File Type="OPT-DCP" Name="voter5_opt.dcp"/>
   <File Type="OPT-DRC" Name="voter5_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="voter5.hwdef"/>
   <File Type="PWROPT-DCP" Name="voter5_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="voter5_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="voter5_timing_summary_pwropted.rpt"/>
   <File Type="PLACE-DCP" Name="voter5_placed.dcp"/>
   <File Type="PLACE-IO" Name="voter5_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="voter5_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="voter5_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="voter5_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="voter5_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="voter5_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="voter5_incremental_reuse_pre_placed.rpt"/>
   <File Type="BG-BGN" Name="voter5.bgn"/>
-  <File Type="PLACE-TIMING" Name="voter5_timing_summary_placed.rpt"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="voter5_postplace_pwropt.dcp"/>
   <File Type="BG-BIN" Name="voter5.bin"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="voter5_timing_summary_postplace_pwropted.rpt"/>
   <File Type="PHYSOPT-DCP" Name="voter5_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="voter5_drc_physopted.rpt"/>
   <File Type="BITSTR-MSK" Name="voter5.msk"/>
-  <File Type="PHYSOPT-TIMING" Name="voter5_timing_summary_physopted.rpt"/>
   <File Type="ROUTE-ERROR-DCP" Name="voter5_routed_error.dcp"/>
   <File Type="ROUTE-DCP" Name="voter5_routed.dcp"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="voter5_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="voter5_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="voter5_drc_routed.pb"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="voter5.ltx"/>
   <File Type="ROUTE-DRC-RPX" Name="voter5_drc_routed.rpx"/>
-  <File Type="BITSTR-MMI" Name="voter5.mmi"/>
+  <File Type="BITSTR-LTX" Name="voter5.ltx"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="voter5_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="voter5.mmi"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="voter5_methodology_drc_routed.rpx"/>
-  <File Type="BITSTR-SYSDEF" Name="voter5.sysdef"/>
   <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="voter5_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="voter5.sysdef"/>
   <File Type="ROUTE-PWR-RPX" Name="voter5_power_routed.rpx"/>
   <File Type="ROUTE-STATUS" Name="voter5_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="voter5_route_status.pb"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="voter5_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="voter5_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="voter5_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="voter5_incremental_reuse_routed.rpt"/>
   <File Type="ROUTE-CLK" Name="voter5_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="voter5_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="voter5_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="voter5_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="voter5_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="voter5_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="voter5_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="voter5_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="voter5_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="voter5_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="voter5_bus_skew_postroute_physopted.pb"/>
   <File Type="BG-BIT" Name="voter5.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="voter5_bus_skew_postroute_physopted.rpx"/>
   <File Type="BITSTR-RBT" Name="voter5.rbt"/>
   <File Type="BITSTR-NKY" Name="voter5.nky"/>
   <File Type="BG-DRC" Name="voter5.drc"/>
@@ -111,9 +92,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

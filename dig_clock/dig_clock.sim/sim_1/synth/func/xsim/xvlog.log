@@ -1,0 +1,11 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/MyCodes/vivado/dig_clock/dig_clock.sim/sim_1/synth/func/xsim/dig_clock_tb_func_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-311] analyzing module dig_clock
+INFO: [VRFC 10-311] analyzing module en_clock
+INFO: [VRFC 10-311] analyzing module pos_detect
+INFO: [VRFC 10-311] analyzing module x7seg
+INFO: [VRFC 10-311] analyzing module x7seg_a
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/MyCodes/vivado/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock_tb

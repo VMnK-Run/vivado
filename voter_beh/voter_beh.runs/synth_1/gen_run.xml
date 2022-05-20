@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1650787242">
   <File Type="PA-TCL" Name="voter5.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="voter5_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="voter5_reports.tcl"/>
   <File Type="RDS-RDS" Name="voter5.vds"/>
   <File Type="RDS-UTIL" Name="voter5_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="voter5_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="voter5.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="voter5_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="voter5_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/voter5.sv">
