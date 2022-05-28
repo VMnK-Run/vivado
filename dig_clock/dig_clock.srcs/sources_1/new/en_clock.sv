@@ -26,7 +26,7 @@ module en_clock(
     );
     
     localparam v = 25_000;
-//    localparam v = 1;
+//    localparam v = 2;
     logic [15 : 0] counter = 0;
     
     always_ff @(posedge sys_clk) begin

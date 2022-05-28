@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1653050744">
+<GenRun Id="synth_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1653767315">
   <File Type="PA-TCL" Name="dig_clock.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="dig_clock_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="dig_clock_reports.tcl"/>

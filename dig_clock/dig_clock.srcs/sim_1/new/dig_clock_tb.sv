@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
+`define CLK_PERIOD 40
 module dig_clock_tb(
 
     );
@@ -39,20 +39,20 @@ module dig_clock_tb(
     );
     
     initial begin
-        sys_clk = 0;
-        forever #20 sys_clk = ~sys_clk;
+        sys_clk <= 1'b0; sys_rst_n <= 1'b0;
+        i_start <= 0;
+        #40; sys_rst_n <= 1'b1;
+    end
+    
+    always #(`CLK_PERIOD / 2) sys_clk = ~sys_clk;
+    
+    initial begin
+        @(posedge sys_rst_n); @(posedge sys_clk);
+        #3000; $finish;
     end
     
     initial begin
-
-        i_start = 0;
-        #10 sys_rst_n = 0;
-        #30 sys_rst_n = 1;
-        #100 i_start = 0;
-
-    end
-    
-    initial begin
-        $monitor($time, "a_to_g = %b, an = %b", a_to_g, an);
+        $timeformat(-9, 0, "ns", 5);
+        $monitor("At time %t: sys_rst_n = %b, i_start = %b, a_to_g = %d, an = %d", $time, sys_rst_n, i_start, a_to_g, an);
     end
 endmodule

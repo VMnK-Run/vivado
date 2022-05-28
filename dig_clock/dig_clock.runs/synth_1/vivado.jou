@@ -2,8 +2,8 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Fri May 20 20:45:46 2022
-# Process ID: 13080
+# Start of session at: Sun May 29 03:48:39 2022
+# Process ID: 29768
 # Current directory: D:/MyCodes/vivado/dig_clock/dig_clock.runs/synth_1
 # Command line: vivado.exe -log dig_clock.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dig_clock.tcl
 # Log file: D:/MyCodes/vivado/dig_clock/dig_clock.runs/synth_1/dig_clock.vds

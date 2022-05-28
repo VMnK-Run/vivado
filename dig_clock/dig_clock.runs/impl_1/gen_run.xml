@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1653050777">
+<GenRun Id="impl_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1653767357">
   <File Type="BITSTR-BMM" Name="dig_clock_bd.bmm"/>
   <File Type="OPT-METHODOLOGY-DRC" Name="dig_clock_methodology_drc_opted.rpt"/>
   <File Type="INIT-TIMING" Name="dig_clock_timing_summary_init.rpt"/>

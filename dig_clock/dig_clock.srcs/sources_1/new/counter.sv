@@ -53,16 +53,16 @@ module counter(
             end
             
             if(go == 1) begin
-                if(counter == v - 1) counter <= 0;
-                else counter <= counter + 1;
                 
                 if(counter == v - 1) begin
+                    counter <= 0;
                     if(sec == 59) begin
                         sec <= 0;
                         min <= min + 1;
                     end
                     else sec <= sec + 1;
                 end
+                else counter <= counter + 1;
             end
         
         end

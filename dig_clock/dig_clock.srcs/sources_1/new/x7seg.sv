@@ -54,8 +54,6 @@ module x7seg(
                 end
             end
             
-
-
         end
     end
     

@@ -1,28 +1,16 @@
 Vivado Simulator 2018.2
 Time resolution is 1 ps
-                   0a_to_g = 11000000, an = xxxx
-                  20a_to_g = 11111111, an = 0001
-                  60a_to_g = 11000000, an = 0010
-                 100a_to_g = 11000000, an = 0100
-                 140a_to_g = 11000000, an = 1000
-                 180a_to_g = 11000000, an = 0001
-                 220a_to_g = 11000000, an = 0010
-                 260a_to_g = 11000000, an = 0100
-                 300a_to_g = 11000000, an = 1000
-                 340a_to_g = 11000000, an = 0001
-                 380a_to_g = 11000000, an = 0010
-                 420a_to_g = 11000000, an = 0100
-                 460a_to_g = 11000000, an = 1000
-                 500a_to_g = 11111001, an = 0001
-                 540a_to_g = 11000000, an = 0010
-                 580a_to_g = 11000000, an = 0100
-                 620a_to_g = 11000000, an = 1000
-                 660a_to_g = 11111001, an = 0001
-                 700a_to_g = 11000000, an = 0010
-                 740a_to_g = 11000000, an = 0100
-                 780a_to_g = 11000000, an = 1000
-                 820a_to_g = 10100100, an = 0001
-                 860a_to_g = 11000000, an = 0010
-                 900a_to_g = 11000000, an = 0100
-                 940a_to_g = 11000000, an = 1000
-                 980a_to_g = 10100100, an = 0001
+At time   0ns: sys_rst_n = 0, i_start = 0, a_to_g = 192, an =  x
+At time  40ns: sys_rst_n = 1, i_start = 0, a_to_g = 192, an =  x
+At time  60ns: sys_rst_n = 1, i_start = 0, a_to_g = 192, an =  1
+At time 140ns: sys_rst_n = 1, i_start = 0, a_to_g = 192, an =  2
+At time 220ns: sys_rst_n = 1, i_start = 0, a_to_g = 192, an =  4
+At time 300ns: sys_rst_n = 1, i_start = 0, a_to_g = 192, an =  8
+At time 380ns: sys_rst_n = 1, i_start = 0, a_to_g = 249, an =  1
+At time 460ns: sys_rst_n = 1, i_start = 0, a_to_g = 192, an =  2
+At time 540ns: sys_rst_n = 1, i_start = 0, a_to_g = 192, an =  4
+At time 620ns: sys_rst_n = 1, i_start = 0, a_to_g = 192, an =  8
+At time 700ns: sys_rst_n = 1, i_start = 0, a_to_g = 164, an =  1
+At time 780ns: sys_rst_n = 1, i_start = 0, a_to_g = 192, an =  2
+At time 860ns: sys_rst_n = 1, i_start = 0, a_to_g = 192, an =  4
+At time 940ns: sys_rst_n = 1, i_start = 0, a_to_g = 192, an =  8
