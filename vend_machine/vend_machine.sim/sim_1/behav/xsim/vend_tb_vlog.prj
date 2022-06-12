@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "D:/Xilinx/Vivado/2017.3/data/xilinx_vip/include" \
+"../../../../vend_machine.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" \
+"../../../../vend_machine.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" \
+"../../../../vend_machine.srcs/sources_1/new/clken.sv" \
+"../../../../vend_machine.srcs/sources_1/new/edge_det.sv" \
+"../../../../vend_machine.srcs/sources_1/new/vend.sv" \
+"../../../../vend_machine.srcs/sources_1/new/vend_fsm.sv" \
+"../../../../vend_machine.srcs/sources_1/new/x7seg_dec.sv" \
+"../../../../vend_machine.srcs/sources_1/new/x7seg_scan.sv" \
+"../../../../vend_machine.srcs/sim_1/new/vend_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
