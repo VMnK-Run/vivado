@@ -25,6 +25,7 @@ module en_clock #(parameter SOURCE_FREQ = 25_000_000, TARGET_FREQ = 1_000) (
     output  logic en
     );
     localparam v = SOURCE_FREQ / TARGET_FREQ;
+//    localparam v = 2; // during the Simulation
     logic [15: 0] counter = 0;
     
     always_ff @(posedge sys_clk) begin

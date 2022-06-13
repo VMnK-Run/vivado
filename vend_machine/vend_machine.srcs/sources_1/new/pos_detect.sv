@@ -10,7 +10,7 @@
 // Target Devices: 
 // Tool Versions: 
 // Description: 
-// 
+//      detect the posedge when in is pos
 // Dependencies: 
 // 
 // Revision:

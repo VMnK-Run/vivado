@@ -14,9 +14,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 30516 
+INFO: Helper process launched with PID 25164 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 359.707 ; gain = 96.645
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 360.422 ; gain = 97.707
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'vend' [D:/MyCodes/vivado/vend_machine/vend_machine.srcs/sources_1/new/vend.sv:3]
 INFO: [Synth 8-6157] synthesizing module 'counter' [D:/MyCodes/vivado/vend_machine/vend_machine.srcs/sources_1/new/counter.sv:23]
@@ -36,15 +36,16 @@ WARNING: [Synth 8-87] always_comb on 'nextstate_reg[2]' did not result in combin
 WARNING: [Synth 8-87] always_comb on 'nextstate_reg[1]' did not result in combinational logic [D:/MyCodes/vivado/vend_machine/vend_machine.srcs/sources_1/new/vend_FSM.sv:48]
 WARNING: [Synth 8-87] always_comb on 'nextstate_reg[0]' did not result in combinational logic [D:/MyCodes/vivado/vend_machine/vend_machine.srcs/sources_1/new/vend_FSM.sv:48]
 INFO: [Synth 8-6155] done synthesizing module 'vend_FSM' (4#1) [D:/MyCodes/vivado/vend_machine/vend_machine.srcs/sources_1/new/vend_FSM.sv:23]
-INFO: [Synth 8-6157] synthesizing module 'bin2bcd_0' [D:/MyCodes/vivado/vend_machine/vend_machine.runs/synth_1/.Xil/Vivado-26184-DESKTOP-F9B13MH/realtime/bin2bcd_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'bin2bcd_0' (5#1) [D:/MyCodes/vivado/vend_machine/vend_machine.runs/synth_1/.Xil/Vivado-26184-DESKTOP-F9B13MH/realtime/bin2bcd_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'bin2bcd_0' [D:/MyCodes/vivado/vend_machine/vend_machine.runs/synth_1/.Xil/Vivado-30312-DESKTOP-F9B13MH/realtime/bin2bcd_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'bin2bcd_0' (5#1) [D:/MyCodes/vivado/vend_machine/vend_machine.runs/synth_1/.Xil/Vivado-30312-DESKTOP-F9B13MH/realtime/bin2bcd_0_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'x7seg' [D:/MyCodes/vivado/vend_machine/vend_machine.srcs/sources_1/new/x7seg.sv:23]
+INFO: [Synth 8-226] default block is never used [D:/MyCodes/vivado/vend_machine/vend_machine.srcs/sources_1/new/x7seg.sv:45]
 INFO: [Synth 8-6157] synthesizing module 'x7seg_a' [D:/MyCodes/vivado/vend_machine/vend_machine.srcs/sources_1/new/x7seg_a.sv:23]
 INFO: [Synth 8-6155] done synthesizing module 'x7seg_a' (6#1) [D:/MyCodes/vivado/vend_machine/vend_machine.srcs/sources_1/new/x7seg_a.sv:23]
 INFO: [Synth 8-6155] done synthesizing module 'x7seg' (7#1) [D:/MyCodes/vivado/vend_machine/vend_machine.srcs/sources_1/new/x7seg.sv:23]
 INFO: [Synth 8-6155] done synthesizing module 'vend' (8#1) [D:/MyCodes/vivado/vend_machine/vend_machine.srcs/sources_1/new/vend.sv:3]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 413.457 ; gain = 150.395
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 413.859 ; gain = 151.145
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -57,10 +58,10 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 413.457 ; gain = 150.395
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 413.859 ; gain = 151.145
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 413.457 ; gain = 150.395
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 413.859 ; gain = 151.145
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tftg256-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -80,16 +81,16 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 739.773 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 734.477 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 739.773 ; gain = 476.711
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 734.477 ; gain = 471.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tftg256-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 739.773 ; gain = 476.711
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 734.477 ; gain = 471.762
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -97,7 +98,7 @@ Start Applying 'set_property' XDC Constraints
 Applied set_property DONT_TOUCH = true for bin2bcd_change. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for bin2bcd_price. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 739.773 ; gain = 476.711
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 734.477 ; gain = 471.762
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5546] ROM "en" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5545] ROM "sec" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
@@ -113,7 +114,7 @@ INFO: [Synth 8-5546] ROM "price" won't be mapped to RAM because it is too sparse
 WARNING: [Synth 8-327] inferring latch for variable 'nextstate_reg[0]' [D:/MyCodes/vivado/vend_machine/vend_machine.srcs/sources_1/new/vend_FSM.sv:48]
 WARNING: [Synth 8-327] inferring latch for variable 'nextstate_reg[3]' [D:/MyCodes/vivado/vend_machine/vend_machine.srcs/sources_1/new/vend_FSM.sv:48]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 739.773 ; gain = 476.711
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 734.477 ; gain = 471.762
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -144,9 +145,9 @@ Detailed RTL Component Info :
 	   2 Input      5 Bit        Muxes := 1     
 	   8 Input      5 Bit        Muxes := 1     
 	   4 Input      4 Bit        Muxes := 2     
-	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 4     
 	   8 Input      3 Bit        Muxes := 1     
-	   3 Input      3 Bit        Muxes := 3     
+	   3 Input      3 Bit        Muxes := 4     
 	   2 Input      2 Bit        Muxes := 2     
 	   2 Input      1 Bit        Muxes := 8     
 	   8 Input      1 Bit        Muxes := 2     
@@ -192,9 +193,9 @@ Detailed RTL Component Info :
 +---Muxes : 
 	   2 Input      5 Bit        Muxes := 1     
 	   8 Input      5 Bit        Muxes := 1     
-	   2 Input      3 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 4     
 	   8 Input      3 Bit        Muxes := 1     
-	   3 Input      3 Bit        Muxes := 3     
+	   3 Input      3 Bit        Muxes := 4     
 	   2 Input      2 Bit        Muxes := 1     
 	   2 Input      1 Bit        Muxes := 2     
 	   8 Input      1 Bit        Muxes := 2     
@@ -225,6 +226,8 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
 INFO: [Synth 8-5546] ROM "cnter/_en_clock_/en" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "cnter/sec" won't be mapped to RAM because address size (26) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "cnter/reset" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-3886] merging instance 'FSM/price_reg[1]' (FD) to 'FSM/price_reg[3]'
 INFO: [Synth 8-3886] merging instance 'FSM/change_reg[0]' (FD) to 'FSM/change_reg[2]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FSM/change_reg[1] )
@@ -233,6 +236,9 @@ INFO: [Synth 8-3886] merging instance 'FSM/nextstate_reg[3][2]' (LD) to 'FSM/nex
 INFO: [Synth 8-3886] merging instance 'FSM/nextstate_reg[3][1]' (LD) to 'FSM/nextstate_reg[3][0]'
 INFO: [Synth 8-3886] merging instance 'FSM/nextstate_reg[3][0]' (LD) to 'FSM/nextstate_reg[0][3]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FSM/nextstate_reg[0][3] )
+WARNING: [Synth 8-3332] Sequential element (FSM/nextstate_reg[0][2]) is unused and will be removed from module vend.
+WARNING: [Synth 8-3332] Sequential element (FSM/nextstate_reg[0][1]) is unused and will be removed from module vend.
+WARNING: [Synth 8-3332] Sequential element (FSM/nextstate_reg[0][0]) is unused and will be removed from module vend.
 WARNING: [Synth 8-3332] Sequential element (FSM/change_reg[1]) is unused and will be removed from module vend.
 WARNING: [Synth 8-3332] Sequential element (FSM/state_reg[0][3]) is unused and will be removed from module vend.
 WARNING: [Synth 8-3332] Sequential element (FSM/state_reg[3][3]) is unused and will be removed from module vend.
@@ -242,7 +248,7 @@ WARNING: [Synth 8-3332] Sequential element (FSM/state_reg[3][0]) is unused and w
 WARNING: [Synth 8-3332] Sequential element (FSM/nextstate_reg[0][3]) is unused and will be removed from module vend.
 INFO: [Synth 8-3886] merging instance 'FSM/price_reg[4]' (FD) to 'FSM/change_reg[2]'
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 739.773 ; gain = 476.711
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 734.477 ; gain = 471.762
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -254,13 +260,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 739.773 ; gain = 476.711
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 736.504 ; gain = 473.789
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 739.773 ; gain = 476.711
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 736.652 ; gain = 473.938
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -272,7 +278,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 746.160 ; gain = 483.098
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 747.766 ; gain = 485.051
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -296,7 +302,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 746.160 ; gain = 483.098
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 747.766 ; gain = 485.051
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -309,7 +315,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 746.160 ; gain = 483.098
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 747.766 ; gain = 485.051
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -321,25 +327,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 746.160 ; gain = 483.098
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 747.766 ; gain = 485.051
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 746.160 ; gain = 483.098
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 747.766 ; gain = 485.051
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 746.160 ; gain = 483.098
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 747.766 ; gain = 485.051
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 746.160 ; gain = 483.098
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 747.766 ; gain = 485.051
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -360,14 +366,14 @@ Report Cell Usage:
 |2     |bin2bcd_0__1 |     1|
 |3     |BUFG         |     1|
 |4     |CARRY4       |    11|
-|5     |LUT1         |     3|
-|6     |LUT2         |    26|
-|7     |LUT3         |     9|
-|8     |LUT4         |    16|
-|9     |LUT5         |     6|
-|10    |LUT6         |    12|
-|11    |FDRE         |    73|
-|12    |LD           |     3|
+|5     |LUT1         |     5|
+|6     |LUT2         |    33|
+|7     |LUT3         |     4|
+|8     |LUT4         |    17|
+|9     |LUT5         |     5|
+|10    |LUT6         |    21|
+|11    |FDRE         |    72|
+|12    |FDSE         |     1|
 |13    |IBUF         |     4|
 |14    |OBUF         |    13|
 +------+-------------+------+
@@ -376,36 +382,35 @@ Report Instance Areas:
 +------+------------------+-------------+------+
 |      |Instance          |Module       |Cells |
 +------+------------------+-------------+------+
-|1     |top               |             |   193|
-|2     |  FSM             |vend_FSM     |    19|
-|3     |  cnter           |counter      |   113|
+|1     |top               |             |   203|
+|2     |  FSM             |vend_FSM     |    13|
+|3     |  cnter           |counter      |   128|
 |4     |    _en_clock_    |en_clock     |    25|
-|5     |    detect_coin10 |pos_detect   |     5|
-|6     |    detect_coin5  |pos_detect_0 |     3|
-|7     |  x7seg1          |x7seg        |    27|
+|5     |    detect_coin10 |pos_detect   |     9|
+|6     |    detect_coin5  |pos_detect_0 |     6|
+|7     |  x7seg1          |x7seg        |    28|
 |8     |    _x7seg_a_     |x7seg_a      |     7|
 +------+------------------+-------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 746.160 ; gain = 483.098
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 747.766 ; gain = 485.051
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 11 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 746.160 ; gain = 156.781
-Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 746.160 ; gain = 483.098
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 747.766 ; gain = 164.434
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 747.766 ; gain = 485.051
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 18 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 15 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 3 instances were transformed.
-  LD => LDCE: 3 instances
+No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-48 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+51 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 758.293 ; gain = 506.766
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:19 . Memory (MB): peak = 755.766 ; gain = 504.531
 WARNING: [Constraints 18-5210] No constraint will be written out.
 INFO: [Common 17-1381] The checkpoint 'D:/MyCodes/vivado/vend_machine/vend_machine.runs/synth_1/vend.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file vend_utilization_synth.rpt -pb vend_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 758.293 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Sun Jun 12 15:17:17 2022...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 755.766 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 13 22:27:04 2022...

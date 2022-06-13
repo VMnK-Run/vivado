@@ -32,6 +32,7 @@ module counter(
     );
     
     localparam v = 25_000_000;
+//    localparam v = 8; // use this only during the Simulation
     logic [25 : 0] counter;
     logic [7 : 0] sec;
     
@@ -66,21 +67,22 @@ module counter(
                     counter <= 0;
                     sec <= 0;
                 end
-                
-                if(counter == v - 1) begin
-                    counter <= 0;
-                    if(sec == 10) begin
-                        sec <= 0;
-                        reset <= 1;
-                    end 
+                else begin
+                    if(counter == v - 1) begin
+                        counter <= 0;
+                        if(sec == 10) begin
+                            sec <= 0;
+                            reset <= 1;
+                        end 
+                        else begin
+                            sec <= sec + 1;
+                            reset <= 0;
+                        end
+                    end
                     else begin
-                        sec <= sec + 1;
+                        counter <= counter + 1;
                         reset <= 0;
                     end
-                end
-                else begin
-                    counter <= counter + 1;
-                    reset <= 0;
                 end
             end
         end

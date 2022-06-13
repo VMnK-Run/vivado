@@ -1,0 +1,7 @@
+Running: xsim.dir/pos_edge_tb_behav/xsimk.exe -simmode gui -wdb pos_edge_tb_behav.wdb -simrunnum 0 -socket 56445
+Design successfully loaded
+Design Loading Memory Usage: 6176 KB (Peak: 6176 KB)
+Design Loading CPU Usage: 77 ms
+Simulation completed
+Simulation Memory Usage: 6852 KB (Peak: 6852 KB)
+Simulation CPU Usage: 77 ms

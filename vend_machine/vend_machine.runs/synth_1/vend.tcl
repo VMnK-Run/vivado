@@ -17,7 +17,6 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_msg_config -id {Common 17-41} -limit 10000000
 create_project -in_memory -part xc7a35tftg256-1
 
 set_param project.singleFileAddWarning.threshold 0
@@ -40,7 +39,7 @@ read_verilog -library xil_defaultlib -sv {
   D:/MyCodes/vivado/vend_machine/vend_machine.srcs/sources_1/new/x7seg_a.sv
   D:/MyCodes/vivado/vend_machine/vend_machine.srcs/sources_1/new/vend.sv
 }
-read_ip -quiet d:/MyCodes/vivado/vend_machine/vend_machine.srcs/sources_1/ip/bin2bcd_0/bin2bcd_0.xci
+read_ip -quiet D:/MyCodes/vivado/vend_machine/vend_machine.srcs/sources_1/ip/bin2bcd_0/bin2bcd_0.xci
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

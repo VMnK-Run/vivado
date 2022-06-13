@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-| Date         : Sun Jun 12 15:18:27 2022
+| Date         : Mon Jun 13 22:27:53 2022
 | Host         : DESKTOP-F9B13MH running 64-bit major release  (build 9200)
 | Command      : report_methodology -file vend_methodology_drc_routed.rpt -pb vend_methodology_drc_routed.pb -rpx vend_methodology_drc_routed.rpx
 | Design       : vend
@@ -23,12 +23,11 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 76
+             Violations found: 73
 +-----------+----------+-----------------------------+------------+
 | Rule      | Severity | Description                 | Violations |
 +-----------+----------+-----------------------------+------------+
 | TIMING-17 | Warning  | Non-clocked sequential cell | 73         |
-| TIMING-20 | Warning  | Non-clocked latch           | 3          |
 +-----------+----------+-----------------------------+------------+
 
 2. REPORT DETAILS
@@ -396,21 +395,6 @@ Related violations: <none>
 TIMING-17#73 Warning
 Non-clocked sequential cell  
 The clock pin x7seg1/in_reg[3]/C is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#1 Warning
-Non-clocked latch  
-The latch FSM/nextstate_reg[0][0] cannot be properly analyzed as its control pin FSM/nextstate_reg[0][0]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#2 Warning
-Non-clocked latch  
-The latch FSM/nextstate_reg[0][1] cannot be properly analyzed as its control pin FSM/nextstate_reg[0][1]/G is not reached by a timing clock
-Related violations: <none>
-
-TIMING-20#3 Warning
-Non-clocked latch  
-The latch FSM/nextstate_reg[0][2] cannot be properly analyzed as its control pin FSM/nextstate_reg[0][2]/G is not reached by a timing clock
 Related violations: <none>
 
 

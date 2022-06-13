@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
-| Date         : Sun Jun 12 15:18:28 2022
+| Date         : Mon Jun 13 22:27:53 2022
 | Host         : DESKTOP-F9B13MH running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -file vend_timing_summary_routed.rpt -pb vend_timing_summary_routed.pb -rpx vend_timing_summary_routed.rpx -warn_on_violation
 | Design       : vend
@@ -54,12 +54,6 @@ Table of Contents
 --------------------
  There are 73 register/latch pins with no clock driven by root clock pin: sys_clk (HIGH)
 
- There are 3 register/latch pins with no clock driven by root clock pin: FSM/state_reg[0][0]/Q (HIGH)
-
- There are 3 register/latch pins with no clock driven by root clock pin: FSM/state_reg[0][1]/Q (HIGH)
-
- There are 3 register/latch pins with no clock driven by root clock pin: FSM/state_reg[0][2]/Q (HIGH)
-
 
 2. checking constant_clock
 --------------------------
@@ -73,7 +67,7 @@ Table of Contents
 
 4. checking unconstrained_internal_endpoints
 --------------------------------------------
- There are 146 pins that are not constrained for maximum delay. (HIGH)
+ There are 150 pins that are not constrained for maximum delay. (HIGH)
 
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 

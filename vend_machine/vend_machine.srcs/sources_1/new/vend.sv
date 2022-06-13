@@ -50,6 +50,7 @@ module vend(
     
     x7seg x7seg1(
         .sys_clk(sys_clk),
+        .sys_rst_n(sys_rst_n),
         .en(en),
         .change(change_bcd),
         .price(price_bcd),

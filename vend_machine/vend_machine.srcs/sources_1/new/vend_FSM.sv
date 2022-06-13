@@ -32,7 +32,7 @@ module vend_FSM(
     );
     
     // Moore FSM
-    typedef enum logic [3 : 0] {NoCoin, OneCoin5, TwoCoin5, ThreeCoin5, OneCoin10, OneCoin5And10, TwoCoin10} statetype;
+    typedef enum logic [3 : 0] {NoCoin, OneCoin5, TwoCoin5, ThreeCoin5, OneCoin10, OneCoin5And10, TwoCoin10, TwoCoin5And10} statetype;
     statetype [3 : 0] state, nextstate;
     
     always_ff @(posedge sys_clk) begin
@@ -56,6 +56,7 @@ module vend_FSM(
         end
         TwoCoin5: begin
             if(coin5 == 1) nextstate = ThreeCoin5;
+            else if(coin10 == 1) nextstate = TwoCoin5And10;
             else nextstate = TwoCoin5;
         end
         ThreeCoin5: begin
@@ -74,6 +75,10 @@ module vend_FSM(
         TwoCoin10: begin
             if(reset) nextstate = NoCoin;
             else nextstate = TwoCoin10;
+        end
+        TwoCoin5And10: begin
+            if(reset) nextstate = NoCoin;
+            else nextstate = TwoCoin5And10;
         end
         endcase
     end
@@ -124,6 +129,12 @@ module vend_FSM(
         end
         
         TwoCoin10: begin
+            open <= 1;
+            change <= 5;
+            price <= 20;
+        end
+        
+        TwoCoin5And10: begin
             open <= 1;
             change <= 5;
             price <= 20;
